@@ -1,0 +1,36 @@
+body{
+ background-color:#FFF5BA;
+}
+
+h2{
+ text-align:center;
+ color:#9D1027;
+ border-bottom:1px solid;
+ padding:8px;
+}
+
+h3{
+ text-align:center;
+ color:#5AB190;
+ border-bottom:1px solid;
+ padding:8px;
+}
+
+.pi{
+  margin: auto;
+  width: 350px;
+  text-align: center;
+  background-color:#FFCBC1;
+  padding:8px;
+}
+
+.det{
+  text-align: center;
+}
+
+.fi{
+  margin: auto;
+  width: 380px;
+  text-align: center;
+  padding:8px;
+}

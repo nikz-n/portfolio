@@ -1,0 +1,74 @@
+.hea{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  	height: 100%;
+  	margin: 0;
+  	font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  	background-color: #555;
+  	color: white;
+  	float: left;
+  	border: none;
+  	outline: none;
+  	cursor: pointer;
+  	padding: 14px 16px;
+  	font-size: 17px;
+  	width: 20%;
+}
+
+.tablink:hover {
+  	background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  	color: black;
+  	display: none;
+  	padding: 100px 20px;
+  	height: 188%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #B19CD9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #B19CD9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: purple;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#whoAmI {background-color: #77DD77; text-align: center;}
+#whatIDo {background-color: #AEC6CF;}
+#home {background-color: #FF6961; text-align: center;}
+#reflection {background-color: #E097B6;}
+#feedback {background-color: #B19CD9;}
